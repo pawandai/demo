@@ -1,0 +1,56 @@
+const en = {
+  common: {
+    save: "Save",
+    cancel: "Cancel",
+    delete: "Delete",
+    edit: "Edit",
+    create: "Create",
+    search: "Search",
+    filter: "Filter",
+    actions: "Actions",
+    confirm: "Confirm",
+    back: "Back",
+    loading: "Loading...",
+    error: "Error",
+    success: "Success",
+    retry: "Retry",
+  },
+  auth: {
+    login: {
+      title: "Login",
+      button: "Login",
+      email: "Email",
+      password: "Password",
+      forgotPassword: "Forgot Password?",
+      noAccount: "Don't have an account?",
+    },
+    register: {
+      title: "Create Account",
+      button: "Create Account",
+      fullName: "Full Name",
+      email: "Email Address",
+      company: "Company Name (Optional)",
+      password: "Password",
+      confirmPassword: "Confirm Password",
+      termsAgreement: "I agree to the",
+      termsLink: "Terms and Conditions",
+      hasAccount: "Already have an account?",
+      login: "Sign in",
+      trialMessage: "Start your 14-day free trial today",
+    },
+    logout: {
+      button: "Logout",
+    },
+  },
+  navigation: {
+    home: "Home",
+    dashboard: "Dashboard",
+    invoices: "Invoices",
+    customers: "Customers",
+    products: "Products",
+    reports: "Reports",
+    settings: "Settings",
+  },
+};
+
+export default en;

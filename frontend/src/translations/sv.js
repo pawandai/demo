@@ -1,0 +1,56 @@
+const sv = {
+  common: {
+    save: "Spara",
+    cancel: "Avbryt",
+    delete: "Radera",
+    edit: "Redigera",
+    create: "Skapa",
+    search: "Sök",
+    filter: "Filtrera",
+    actions: "Åtgärder",
+    confirm: "Bekräfta",
+    back: "Tillbaka",
+    loading: "Laddar...",
+    error: "Fel",
+    success: "Framgång",
+    retry: "Försök igen",
+  },
+  auth: {
+    login: {
+      title: "Logga in",
+      button: "Logga in",
+      email: "E-post",
+      password: "Lösenord",
+      forgotPassword: "Glömt lösenord?",
+      noAccount: "Har du inget konto?",
+    },
+    register: {
+      title: "Skapa Konto",
+      button: "Skapa Konto",
+      fullName: "Fullständigt Namn",
+      email: "E-postadress",
+      company: "Företagsnamn (Valfritt)",
+      password: "Lösenord",
+      confirmPassword: "Bekräfta Lösenord",
+      termsAgreement: "Jag godkänner",
+      termsLink: "Villkor och Bestämmelser",
+      hasAccount: "Har du redan ett konto?",
+      login: "Logga in",
+      trialMessage: "Börja din 14-dagars gratis provperiod idag",
+    },
+    logout: {
+      button: "Logga ut",
+    },
+  },
+  navigation: {
+    home: "Hem",
+    dashboard: "Översikt",
+    invoices: "Fakturor",
+    customers: "Kunder",
+    products: "Produkter",
+    reports: "Rapporter",
+    settings: "Inställningar",
+  },
+};
+
+export default sv;
