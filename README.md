@@ -28,7 +28,7 @@
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 demo/
 ├── frontend/                 # React frontend application
 │   ├── src/
@@ -53,7 +53,7 @@ demo/
 │   │   └── ...
 │   └── package.json
 └── README.md
-\`\`\`
+```
 
 ## 🚀 Quick Start
 
@@ -64,29 +64,29 @@ demo/
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/pawandai/demo.git
    cd ./demo
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm run install:all
-   \`\`\`
+   ```
 
 3. **Set up environment variables**
    
    Create `.env` file in the backend directory based on `.env.example`
 
 4. **Start the development servers**
-   \`\`\`bash
+   ```bash
    # Start both frontend and backend
    npm run dev
 
    # Or start individually
    npm run dev:frontend  # Frontend on http://localhost:3000
    npm run dev:backend   # Backend on http://localhost:8000
-   \`\`\`
+   ```
 
 ### Deployment Options
 - **Vercel** - Recommended for frontend deployment
